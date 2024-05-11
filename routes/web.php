@@ -29,4 +29,10 @@ Route::get('/product/insert', [ProductsController::class, 'Insert'])->name('Inse
 Route::post('/product/store', [ProductsController::class, 'Store'])->name('Store');
 
 
+//Users : 
+Route::get('account/insert', [AccountsController::class, 'Insert'])->name('InsertUser');
+Route::post('account/store', [AccountsController::class, 'Store'])->name('StoreUser');
+
+
+
 
